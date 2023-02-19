@@ -2,6 +2,9 @@
 
 # Comparing Two Popular Containerization Tools
 
+![image](https://user-images.githubusercontent.com/85316531/219969237-bdb2127e-a9c6-4333-97c9-ccc30c248137.png)
+
+
 Over time, containerization technology has grown in popularity, with two of the most well-known tools being Docker and Podman. Although both tools are used to deploy and manage containerized applications, there are some key distinctions between them. In this blog, we’ll look at what Docker and Podman are, how they’re used, how they differ, and which one is superior.
 
 Before we jump into the topic, first let’s see what a container is.
