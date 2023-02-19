@@ -10,6 +10,8 @@ Over time, containerization technology has grown in popularity, with two of the 
 Before we jump into the topic, first let’s see what a container is.
 
 # Unpacking Containers: What They Are, How They Work, and Why You Need Them.
+![image](https://user-images.githubusercontent.com/85316531/219971403-601753dd-6026-4dd6-8ec9-bccf9bd94d93.png)
+
 A container is a software package that includes all the necessary dependencies and libraries for an application to run. It uses operating system-level virtualization to create an isolated environment for the application to run in.
 
 Before containers, developers faced difficulties configuring different environments for applications. Containers solve this problem by providing a consistent and portable runtime environment for applications to run in. They make it easy to move applications between different environments without modifying the code. This saves time and reduces errors in deployment and configuration thus becoming an essential part.
@@ -20,6 +22,17 @@ Developers can package an application and all of its dependencies into a single 
 The foundation of containers is Docker images, which are kept in registries like Docker Hub using a client-server architecture. Applications are packaged, shipped, and run using Docker in a consistent and repeatable manner across various environments.
 
 Furthermore, Docker containers are isolated from one another, enabling numerous containers to run independently on a single host. To manage large-scale container deployments, Docker supports container orchestration tools like Kubernetes and Docker Swarm.
+
+# Docker Architecture:
+![image](https://user-images.githubusercontent.com/85316531/219971443-1557ab6c-a282-450d-a2c1-8d00d2322bfc.png)
+
+# Main Components of docker architecture:
+1) Docker Containers: Docker containers are lightweight, portable, and self-contained environments that run applications. Each container is created from an image.
+2) Docker Engine: The Docker Engine is the core component of the Docker that runs on the host machine. It is responsible for building, running, and managing Docker containers.
+3) Docker Images: They contain everything needed to run an application, including the code, libraries, and dependencies.
+4) Docker Hub: Docker Hub is a cloud-based service that provides a central location for Docker images.
+5) Docker Client: The Docker Client is a command-line tool used to interact with Docker. Users can run and stop application commands to a Docker daemon using the command-line interface (CLI) provided by the Docker client.
+6) Docker Daemon: The Docker daemon is responsible for handling incoming requests to the Docker API and overseeing the management of various Docker components such as containers, images, networks, and volumes.
 
 # What is Podman?
 Podman is a containerization tool that allows developers to create, run, and manage containers, similar to Docker but with some significant differences.
@@ -42,6 +55,8 @@ However, Since Docker has been around longer and is the more popular containeriz
 Note that both Docker and Podman have many similar commands and features.
 
 # Docker Compose VS Podman Compose:
+![image](https://user-images.githubusercontent.com/85316531/219971485-7555d251-7519-4f1f-b3f7-1e8bce4786a1.png)
+
 Both the Podman Compose and Docker Compose tools are used to define and run multi-container applications. While having similar functions, there are some differences between the two.
 
 Docker Compose requires a daemon to be running, Podman Compose does not. This makes Podman Compose a more flexible choice for some use cases since it can be utilized on computers that do not have Docker installed.
