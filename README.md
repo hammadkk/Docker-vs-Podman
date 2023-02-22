@@ -16,7 +16,7 @@ A container is a software package that includes all the necessary dependencies a
 
 Before containers, developers faced difficulties configuring different environments for applications. Containers solve this problem by providing a consistent and portable runtime environment for applications to run in. They make it easy to move applications between different environments without modifying the code. This saves time and reduces errors in deployment and configuration thus becoming an essential part.
 
-# What is docker and What it’s used for?
+# What is docker and What it’s used for ?
 Developers can package an application and all of its dependencies into a single container using the containerization tool known as Docker. It is the perfect solution for deploying applications across a variety of environments because it is portable, effective, and lightweight.
 
 The foundation of containers is Docker images, which are kept in registries like Docker Hub using a client-server architecture. Applications are packaged, shipped, and run using Docker in a consistent and repeatable manner across various environments.
