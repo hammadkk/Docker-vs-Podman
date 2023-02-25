@@ -61,7 +61,7 @@ Both the Podman Compose and Docker Compose tools are used to define and run mult
 
 Docker Compose requires a daemon to be running, Podman Compose does not. This makes Podman Compose a more flexible choice for some use cases since it can be utilized on computers that do not have Docker installed.
 
-There are certain extra features in Podman Compose that are not present in Docker Compose. Podman compose gives the ability to non-root users to run containers without the need for special permissions. For developers who want to use pre-existing Docker images with Podman, Podman Compose also supports creating containers from a Docker file or a container image.
+There are certain extra features in Podman Compose that are not present in Docker Compose. Podman compose gives the ability to non-root users to run containers without the need for special permissions. For developers who want to use pre-existing Docker images with Podman, Podman Compose also supports creating containers from a Docker file or a container images.
 
 # Conclusion 
 To conclude both Docker and Podman have advantages and disadvantages, and the best option will depend on your particular needs and requirements. If you’re not sure which to pick, it might be useful to try both and determine which one suits your use case the best.
